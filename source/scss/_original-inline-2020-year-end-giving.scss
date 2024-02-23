@@ -1,0 +1,158 @@
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+@media (min-width: 768px) {
+	body {
+		/* main background image */
+		background: url('https://d2r0txsugik6oi.cloudfront.net/neon/resource/lcfamerica/templateImage/footerBackgroundImage_61.png?forwardedFromSecureDomain=1&r=25008611172196628')
+			no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0%;
+	}
+
+	.container {
+		width: 750px;
+	}
+
+	.col-sm-12 {
+		width: 100%;
+	}
+
+	.col-sm-1,
+	.col-sm-10,
+	.col-sm-11,
+	.col-sm-12,
+	.col-sm-2,
+	.col-sm-3,
+	.col-sm-4,
+	.col-sm-5,
+	.col-sm-6,
+	.col-sm-7,
+	.col-sm-8,
+	.col-sm-9 {
+		float: left;
+	}
+
+	#content {
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 800px;
+	}
+}
+
+/* General Styles */
+/* #header {
+                background-color: #0679bb;
+            } */
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.btn-group-vertical > .btn-group:after,
+.btn-group-vertical > .btn-group:before,
+.btn-toolbar:after,
+.btn-toolbar:before,
+.clearfix:after,
+.clearfix:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
+.container:before,
+.dl-horizontal dd:after,
+.dl-horizontal dd:before,
+.form-horizontal .form-group:after,
+.form-horizontal .form-group:before,
+.modal-footer:after,
+.modal-footer:before,
+.modal-header:after,
+.modal-header:before,
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
+.navbar-header:after,
+.navbar-header:before,
+.navbar:after,
+.navbar:before,
+.pager:after,
+.pager:before,
+.panel-body:after,
+.panel-body:before,
+.row:after,
+.row:before {
+	display: table;
+	content: ' ';
+}
+
+:after,
+:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+#header .header-image {
+	text-align: center;
+}
+
+#header,
+#footer,
+.neoncrm-button,
+.neonButton,
+.neoncrm-donation-levels label.neoncrm-radio-label,
+.sfp-button,
+input[type='button'],
+input[type='submit'] {
+	color: #ffffff;
+}
+
+/* elements color */
+#header,
+#footer,
+.neoncrm-button,
+.neonButton,
+.neoncrm-donation-levels label.neoncrm-radio-label,
+.sfp-button,
+input[type='button'],
+input[type='submit'] {
+	background-color: #0479bb;
+}
+
+#header,
+#footer {
+	font-size: 0.8em;
+	padding: 0;
+	width: 100%;
+}
+
+#header {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+}
+
+#footer {
+	position: absolute;
+}

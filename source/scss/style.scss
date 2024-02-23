@@ -1,0 +1,41 @@
+@import 'base';
+@import 'original-inline-2020-year-end-giving';
+@import 'custom-css';
+.background-blue {
+	background-color: #0479bb;
+}
+.background-green {
+	background-color: #a6c75f;
+}
+body {
+	background-size: cover;
+	margin: 0%;
+}
+.background-image-bubble-ribbons {
+	background-image: url('https://d2r0txsugik6oi.cloudfront.net/neon/resource/lcfamerica/templateImage/footerBackgroundImage_61.png?forwardedFromSecureDomain=1&r=25008611172196628');
+}
+.background-image-chiclets {
+	background-image: url('https://d2r0txsugik6oi.cloudfront.net/neon/resource/lcfamerica/templateImage/footerBackgroundImage_54.png?forwardedFromSecureDomain=1&r=40415731516350874');
+}
+.text-white {
+	color: #fff;
+	* {
+		color: inherit;
+	}
+}
+header.lcfa-header {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+footer.lcfa-footer {
+	padding: 40px 40px 60px;
+	display: flex;
+	* {
+		margin: 0;
+	}
+	.column {
+		outline: 1px solid white;
+	}
+}

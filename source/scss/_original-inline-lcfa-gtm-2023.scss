@@ -1,0 +1,333 @@
+@media (min-width: 1200px) {
+	/* .container {
+                    width: 1170px;
+                } */
+}
+
+@media (min-width: 992px) {
+	/* .container {
+                    width: 970px;
+                } */
+
+	.col-md-offset-3 {
+		margin-left: 25%;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+}
+
+@media (min-width: 768px) {
+	body {
+		/* main background image */
+		background: url('https://d2r0txsugik6oi.cloudfront.net/neon/resource/lcfamerica/templateImage/footerBackgroundImage_54.png?forwardedFromSecureDomain=1&r=40415731516350874')
+			no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0%;
+	}
+
+	#form-wrapper,
+	#sidebar {
+		margin: 40px 0 40px 0;
+		border-radius: 2px;
+		padding: 10px 20px;
+		overflow: auto;
+	}
+
+	/* .container {
+                    width: 750px;
+                } */
+
+	.col-sm-12 {
+		width: 100%;
+	}
+
+	.col-sm-1,
+	.col-sm-10,
+	.col-sm-11,
+	.col-sm-12,
+	.col-sm-2,
+	.col-sm-3,
+	.col-sm-4,
+	.col-sm-5,
+	.col-sm-6,
+	.col-sm-7,
+	.col-sm-8,
+	.col-sm-9 {
+		float: left;
+	}
+
+	#content {
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 800px;
+	}
+}
+/* General Styles */
+/* #header {
+                background-color: #0679bb;
+            } */
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.btn-group-vertical > .btn-group:after,
+.btn-group-vertical > .btn-group:before,
+.btn-toolbar:after,
+.btn-toolbar:before,
+.clearfix:after,
+.clearfix:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
+.container:before,
+.dl-horizontal dd:after,
+.dl-horizontal dd:before,
+.form-horizontal .form-group:after,
+.form-horizontal .form-group:before,
+.modal-footer:after,
+.modal-footer:before,
+.modal-header:after,
+.modal-header:before,
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
+.navbar-header:after,
+.navbar-header:before,
+.navbar:after,
+.navbar:before,
+.pager:after,
+.pager:before,
+.panel-body:after,
+.panel-body:before,
+.row:after,
+.row:before {
+	display: table;
+	content: ' ';
+}
+:after,
+:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+#header .header-image {
+	text-align: center;
+}
+
+#header,
+#footer,
+.neoncrm-button,
+.neonButton,
+.neoncrm-donation-levels label.neoncrm-radio-label,
+.sfp-button,
+input[type='button'],
+input[type='submit'] {
+	color: #ffffff;
+}
+/* elements color */
+#footer,
+.neoncrm-button,
+.neonButton,
+.neoncrm-donation-levels label.neoncrm-radio-label,
+.sfp-button,
+input[type='button'],
+input[type='submit'] {
+	background-color: #a6c75f;
+}
+
+#header,
+#footer {
+	font-size: 0.8em;
+	padding: 0;
+	width: 100%;
+}
+
+#header {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+}
+
+.neoncrm-page-title {
+	text-align: center;
+}
+
+#footer {
+	position: absolute;
+}
+
+#form-wrapper,
+#sidebar {
+	background-color: #fff;
+	margin: 1.5rem 0 2rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.neoncrm-donation-levels label,
+.neoncrm-button,
+.neonButton,
+.sfp-section-header,
+.sfp-button,
+.sfp-small-button,
+input[type='button'],
+input[type='submit'] {
+	font-family: Roboto, sans-serif;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	line-height: 1.42857143;
+	color: #333;
+}
+
+input#donation\.amount {
+	font-size: 1.5em;
+	padding: 6px 3px;
+}
+input.neon2Field,
+input.neoncrm-text-field,
+select.neoncrm-select,
+textarea {
+	width: 100%;
+	max-width: 100%;
+	padding: 3px;
+}
+
+.neoncrm-field-label,
+.neoncrm-field-text,
+.neoncrm-form-buttons,
+.neoncrm-checkbox-group,
+.neoncrm-radio-group,
+.neoncrm-section,
+.neoncrm-section-title,
+.neoncrm-section-head,
+.neoncrm-section-footer {
+	margin-top: 1em;
+}
+
+.neoncrm-field-label,
+.neoncrm-field-text,
+.neoncrm-radio-label {
+	display: block;
+}
+
+label {
+	font-size: 1.2em;
+}
+
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+input[type='submit'] {
+	width: 100%;
+	padding: 1rem;
+	margin: 1rem auto;
+	border-radius: 4px;
+	border-color: #a6c75f;
+	border-style: solid;
+}
+
+.neonButton:hover,
+.neoncrm-button:hover,
+input[type='button']:hover,
+input[type='submit']:hover,
+.neoncrm-donation-levels input:checked + label,
+.neoncrm-donation-levels label.neoncrm-radio-label:hover,
+.sfp-button:hover {
+	color: #a6c75f;
+	border-color: #a6c75f;
+	border-width: 5px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.neoncrm-button:hover,
+input[type='button']:hover,
+input[type='submit']:hover,
+.neoncrm-donation-levels input:checked + label,
+.neoncrm-donation-levels label.neoncrm-radio-label:hover,
+.sfp-button:hover,
+.neoncrm-radio-group.neoncrm-donation-levels label:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
