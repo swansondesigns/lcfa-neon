@@ -1,0 +1,43 @@
+$margintop: 10px;
+form {
+	select,
+	input {
+		&[type='text' i] {
+			border-radius: 5px;
+			display: flex;
+			height: 3.75rem;
+			width: 100%;
+			border: 1px solid #c3c3c3;
+			background: #f9f9f9;
+			font-weight: 600;
+			padding: 0 1em;
+		}
+		&:not([type='file' i], [type='image' i], [type='checkbox' i], [type='radio' i]) {
+			padding: 10px;
+			min-height: 30px;
+			margin: 0;
+			box-sizing: border-box;
+			margin-top: $margintop;
+			@include bp($sm) {
+				min-width: 600px;
+			}
+		}
+		/* Overrides  and Exceptions */
+		&[name*='zip'] {
+			min-width: auto;
+		}
+	}
+
+	textarea {
+		width: 100%;
+		padding: 10px;
+		min-height: 100px;
+		font-size: 22px;
+		margin: 0;
+		box-sizing: border-box;
+		margin-top: $margintop;
+		@include bp($sm) {
+			min-width: 600px;
+		}
+	}
+}

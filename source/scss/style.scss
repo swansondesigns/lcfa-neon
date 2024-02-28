@@ -1,4 +1,12 @@
+@import 'mixins';
+// @import 'lcfa-site/normalize';
+// @import 'lcfa-site/variables';
+// @import 'lcfa-site/colors';
+// @import 'lcfa-site/site-footer';
+// @import 'lcfa-site/forms';
 @import 'base';
+@import 'footer';
+@import 'form-elements';
 @import 'original-inline-2020-year-end-giving';
 @import 'custom-css';
 .background-blue {
@@ -27,6 +35,22 @@ header.lcfa-header {
 	display: flex;
 	justify-content: center;
 	padding: 20px;
+}
+.content {
+	outline: 1px solid white;
+	background-color: #fff;
+	margin: 40px 1% 80px;
+	padding: 40px 40px 80px;
+	max-width: 1000px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	h1 {
+		margin-top: 0;
+	}
+	@include bp($lg) {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 footer.lcfa-footer {

@@ -1,0 +1,62 @@
+// footer.lcfa-footer {
+// 	.column-3,
+// 	.column-4 {
+// 		flex-basis: 100%;
+// 	}
+
+// 	@include bp($sm) {
+// 		justify-content: space-between;
+// 		.column-3,
+// 		.column-4 {
+// 			flex-basis: 50%;
+// 		}
+// 	}
+
+// 	@include bp($md) {
+// 		.column-3 {
+// 			flex-basis: 33.33%;
+// 		}
+
+// 		.column-4 {
+// 			flex-basis: 25%;
+// 		}
+// 	}
+// }
+
+footer.site-footer {
+	.social-icons .circle-icon-link {
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		border: 1px solid currentColor;
+		font-size: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 -7px;
+		svg {
+			width: 20px;
+			height: 20px;
+			fill: white;
+		}
+		&:hover {
+			background-color: white;
+			svg {
+				fill: #0479bb;
+			}
+		}
+	}
+	@include bp($sm) {
+		.site-footer__grid {
+			display: flex;
+			gap: unset;
+			justify-content: space-between;
+			> div {
+				width: calc(33% - 5rem);
+				box-sizing: border-box;
+			}
+			.site-footer__primary {
+			}
+		}
+	}
+}
