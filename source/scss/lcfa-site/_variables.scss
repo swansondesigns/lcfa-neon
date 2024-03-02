@@ -1,0 +1,35 @@
+$xs: 480px;
+$sm: 768px;
+$md: 980px;
+$lg: 1024px;
+$xl: 1280px;
+$xxl: 1440px;
+$xxxl: 1600px;
+$bounds: 1920px;
+
+$inner-width: 1140px;
+$gutter: 30px;
+// $hero-padding: clamp(4.375rem, -1.1458rem + 11.5017vw, 12.65625rem);
+
+$mobile-nav-breakpoint: $xl;
+// $header-height: rem(125);
+$header-height: rem(110);
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}

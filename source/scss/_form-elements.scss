@@ -2,6 +2,14 @@ $margintop: 10px;
 form {
 	select,
 	input {
+		padding: 10px;
+		min-height: 30px;
+		margin: 0;
+		box-sizing: border-box;
+		margin-top: $margintop;
+		@include bp($sm) {
+			min-width: 600px;
+		}
 		&[type='text' i] {
 			border-radius: 5px;
 			display: flex;
@@ -12,15 +20,16 @@ form {
 			font-weight: 600;
 			padding: 0 1em;
 		}
-		&:not([type='file' i], [type='image' i], [type='checkbox' i], [type='radio' i]) {
-			padding: 10px;
-			min-height: 30px;
-			margin: 0;
-			box-sizing: border-box;
-			margin-top: $margintop;
-			@include bp($sm) {
-				min-width: 600px;
-			}
+		&[type='radio'] {
+			opacity: 0.2;
+		}
+		&[type='file' i],
+		&[type='image' i],
+		&[type='checkbox' i],
+		&[type='radio'] {
+			width: auto;
+			min-width: auto;
+			min-height: auto;
 		}
 		/* Overrides  and Exceptions */
 		&[name*='zip'] {

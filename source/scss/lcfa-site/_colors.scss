@@ -1,0 +1,88 @@
+$logo-blue: #0479bb;
+$logo-green: #a6c75f;
+
+$blue: #184695;
+$pale-blue: #81bcdd;
+$sky-blue: #22a7e0;
+$navy: #002e6b;
+$matisse: #126690;
+
+$purple: #895ad2;
+
+$pale-green: #d5e7b8;
+$vivid-green: #95c444;
+$green: #339746;
+$gold: #eeb759;
+$red: #e9654b;
+$pale-red: #fcf3f4;
+
+$light: #fff;
+$light-1: #f9f9f9;
+$light-2: #efefef;
+$light-3: #d7d7d7;
+$light-4: #c3c3c3;
+$light-5: #979797;
+
+$dark: #182031;
+$dark-1: #7a7a7a;
+$dark-2: #4a4a4a;
+$dark-3: #313131;
+$dark-4: #232323;
+$dark-5: #1a1a1a;
+
+:root {
+	--red: #{$red};
+	--gold: #{$gold};
+	--pale-green: #{$pale-green};
+	--green: #{$green};
+	--blue: #{$blue};
+	--logo-blue: #{$logo-blue};
+	--navy: #{$navy};
+	--light: #{$light-1};
+	--dark: #{$dark-4};
+	// --white: #fff;
+}
+
+.color-gray {
+	color: $dark-2 !important;
+}
+.color-dark-gray {
+	color: $dark-4 !important;
+}
+.color-red {
+	color: $red !important;
+}
+.color-blue {
+	color: $blue !important;
+}
+.color-logo-blue {
+	color: $logo-blue !important;
+}
+.color-navy {
+	color: $navy !important;
+}
+.color-white {
+	color: #fff !important;
+}
+.color-green {
+	color: $green !important;
+}
+.color-pale-green {
+	color: $pale-green !important;
+}
+.background-pale-green {
+	background-color: $pale-green !important;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+.bg-light-gray {
+	background-color: $dark-1;
+}
+.bg-dark-gray {
+	background-color: $dark-4;
+}
+.bg-blue {
+	background-color: $blue;
+}
