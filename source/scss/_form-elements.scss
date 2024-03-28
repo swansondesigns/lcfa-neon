@@ -20,12 +20,6 @@ form {
 			font-weight: 600;
 			padding: 0 1em;
 		}
-		&[type='radio'] {
-			width: 20px;
-			height: 20px;
-			transform: translateY(25%);
-			margin-right: 10px;
-		}
 		&[type='file' i],
 		&[type='image' i],
 		&[type='checkbox' i],
@@ -34,6 +28,13 @@ form {
 			min-width: auto;
 			min-height: auto;
 		}
+		&[type='radio'] {
+			width: 20px;
+			height: 20px;
+			transform: translateY(25%);
+			margin-right: 10px;
+		}
+
 		/* Overrides  and Exceptions */
 		&[name*='zip'] {
 			min-width: auto;
