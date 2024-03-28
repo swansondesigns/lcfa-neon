@@ -21,7 +21,10 @@ form {
 			padding: 0 1em;
 		}
 		&[type='radio'] {
-			opacity: 0.2;
+			width: 20px;
+			height: 20px;
+			transform: translateY(25%);
+			margin-right: 10px;
 		}
 		&[type='file' i],
 		&[type='image' i],

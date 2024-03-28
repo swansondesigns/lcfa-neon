@@ -68,7 +68,10 @@ form input[type=text i] {
 }
 form select[type=radio],
 form input[type=radio] {
-  opacity: 0.2;
+  width: 20px;
+  height: 20px;
+  transform: translateY(25%);
+  margin-right: 10px;
 }
 form select[type=file i], form select[type=image i], form select[type=checkbox i], form select[type=radio],
 form input[type=file i],
