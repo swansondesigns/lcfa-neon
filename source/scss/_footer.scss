@@ -51,6 +51,8 @@ footer.site-footer {
 			display: flex;
 			gap: unset;
 			justify-content: space-between;
+			max-width: 1000px;
+			margin: 0 auto;
 			> div {
 				width: calc(33% - 5rem);
 				box-sizing: border-box;
