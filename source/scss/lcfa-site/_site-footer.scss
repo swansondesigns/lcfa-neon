@@ -24,10 +24,6 @@
 		grid-template-columns: pct(235px, $inner-width) 1fr pct(270px, $inner-width) pct(232px, $inner-width);
 	}
 }
-
-.site-footer__primary {
-}
-
 .site-footer__logo {
 	display: flex;
 	max-width: rem(200);
