@@ -53,4 +53,16 @@ form {
 			min-width: 600px;
 		}
 	}
+	.neoncrm-form-buttons {
+		display: flex;
+		justify-content: center;
+		.neoncrm-button.neoncrm-submit {
+			background-color: #0479bb;
+			font-size: 22px;
+			max-width: 300px;
+			width: 300px;
+			text-transform: uppercase;
+			margin-bottom: 40px;
+		}
+	}
 }
