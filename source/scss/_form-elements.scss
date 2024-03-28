@@ -38,6 +38,8 @@ form {
 		/* Overrides  and Exceptions */
 		&[name*='zip'] {
 			min-width: auto;
+			display: inline;
+			width: auto;
 		}
 	}
 
@@ -63,6 +65,7 @@ form {
 			width: 300px;
 			text-transform: uppercase;
 			margin-bottom: 40px;
+			color: white;
 		}
 	}
 }
