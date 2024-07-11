@@ -5,4 +5,114 @@ body {
 	font-optical-sizing: auto;
 	font-size: 14px;
 }
+
+#fundraiserlistMain {
+	input {
+		&.button,
+		&.button.primary,
+		&.neonButton {
+			margin-top: 5px;
+			padding: 5px 15px;
+			border: solid 2px transparent;
+			font-size: 1em;
+			background-color: #0479bb;
+			color: #ffffff;
+			cursor: pointer;
+			&:hover {
+				color: #0479bb !important;
+				border-color: #0479bb;
+				background-color: #ffffff;
+			}
+		}
+	}
+	> form[name='pShoppingCartFormBean'] {
+		fieldset {
+			width: 100%;
+			max-width: none !important;
+			padding: 10px;
+			box-sizing: border-box;
+			min-width: auto !important;
+			table tr {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+		input,
+		select {
+			min-width: initial;
+			height: 50px;
+			border: 1px solid gray;
+			border-radius: 8px;
+		}
+	}
+
+	> div {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		.fundraiser {
+			outline: 1px solid #ccc;
+			padding: 8px;
+			margin: 0;
+			width: 100%;
+			box-sizing: border-box;
+			float: none;
+			tr:nth-child(2) td:first-of-type {
+				width: 100px !important;
+				height: 100px;
+				position: relative;
+			}
+			&:last-of-type {
+				width: 100%;
+				flex: auto;
+			}
+		}
+	}
+}
+div#fundraiserPhoto,
+div#fundraiserPhoto > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100% !important;
+	width: 100% !important;
+	img {
+		height: 100% !important;
+		width: 100% !important;
+		max-height: none !important;
+		max-width: none !important;
+		object-fit: cover;
+		object-fit: contain;
+		object-position: top;
+		&[src='/np/images/defaultContact.jpeg'] {
+			padding-left: 100px;
+			background-size: cover;
+		}
+	}
+}
+
+div#fundraiser-pagination .pagingContainer .form-group {
+	white-space: normal;
+	height: auto;
+}
+@media screen and (min-width: 600px) {
+	#fundraiserlistMain > div .fundraiser {
+		flex: 0 1 calc(50% - 0.5rem);
+	}
+}
+@media screen and (min-width: 900px) {
+	#fundraiserlistMain {
+		> form[name='pShoppingCartFormBean'] fieldset table tr {
+			flex-direction: row;
+			gap: 1rem;
+		}
+		> div .fundraiser tr:nth-child(2) td:first-of-type {
+			width: 200px !important;
+			height: 200px;
+		}
+	}
+	div#fundraiserPhoto > div img[src='/np/images/defaultContact.jpeg'] {
+		padding-left: 200px;
+		background-size: cover;
+	}
 }
