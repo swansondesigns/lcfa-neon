@@ -82,7 +82,6 @@ div#fundraiserPhoto > div {
 		max-height: none !important;
 		max-width: none !important;
 		object-fit: cover;
-		object-fit: contain;
 		object-position: top;
 		&[src='/np/images/defaultContact.jpeg'] {
 			padding-left: 100px;
@@ -114,5 +113,29 @@ div#fundraiser-pagination .pagingContainer .form-group {
 	div#fundraiserPhoto > div img[src='/np/images/defaultContact.jpeg'] {
 		padding-left: 200px;
 		background-size: cover;
+	}
+
+	// This is for the individual donation page on P2P
+	.content {
+		display: flex;
+		#sfp-progress-bar .sfp-progess-bar-container {
+			position: relative;
+			.sfp-progress-percentage {
+				position: absolute;
+				left: 0;
+				width: 100%;
+				text-align: center;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			.sfp-progess-bar {
+				top: 0;
+				height: 100%;
+			}
+		}
+
+		#sfp-sidebar a.sfp-button {
+			background-color: #a6c75f;
+		}
 	}
 }
