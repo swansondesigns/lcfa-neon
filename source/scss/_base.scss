@@ -94,6 +94,28 @@ div#fundraiser-pagination .pagingContainer .form-group {
 	white-space: normal;
 	height: auto;
 }
+
+#sfp-sidebar {
+	a.sfp-button {
+		background-color: #a6c75f;
+	}
+	#sfp-progress-bar .sfp-progess-bar-container {
+		position: relative;
+		.sfp-progress-percentage {
+			position: absolute;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		.sfp-progess-bar {
+			top: 0;
+			height: 100%;
+		}
+	}
+}
+
 @media screen and (min-width: 600px) {
 	#fundraiserlistMain > div .fundraiser {
 		flex: 0 1 calc(50% - 0.5rem);
@@ -118,24 +140,13 @@ div#fundraiser-pagination .pagingContainer .form-group {
 	// This is for the individual donation page on P2P
 	.content {
 		display: flex;
-		#sfp-progress-bar .sfp-progess-bar-container {
-			position: relative;
-			.sfp-progress-percentage {
-				position: absolute;
-				left: 0;
-				width: 100%;
-				text-align: center;
-				top: 50%;
-				transform: translateY(-50%);
-			}
-			.sfp-progess-bar {
-				top: 0;
-				height: 100%;
-			}
-		}
 
-		#sfp-sidebar a.sfp-button {
-			background-color: #a6c75f;
+		#sfp-wrapper {
+			flex: 0 0 60%;
+		}
+		#sfp-sidebar {
+			margin-top: 10px;
+			flex-grow: 1;
 		}
 	}
 }
