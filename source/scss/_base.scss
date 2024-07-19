@@ -120,6 +120,16 @@ div#fundraiser-pagination .pagingContainer .form-group {
 	}
 }
 
+// On the P2P layout there is an image that is part of the template that needs this CSS fix for mobile
+div#sfp-wrapper div#sfp-header-image {
+	height: auto;
+	img {
+		max-height: initial !important;
+		max-width: 100% !important;
+		margin: 0;
+	}
+}
+
 @media screen and (min-width: 600px) {
 	#fundraiserlistMain > div .fundraiser {
 		flex: 0 1 calc(50% - 0.5rem);
