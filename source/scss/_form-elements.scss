@@ -7,9 +7,9 @@ form {
 		margin: 0;
 		box-sizing: border-box;
 		margin-top: $margintop;
-		@include bp($sm) {
-			min-width: 600px;
-		}
+		// @include bp($sm) {
+		// 	min-width: 600px;
+		// }
 		&[type='text' i] {
 			border-radius: 5px;
 			display: flex;
